@@ -1,8 +1,9 @@
 name: publish to nuget
 on:
-  push:
-    branches:
-      - master # Default release branch
+  workflow_dispatch:                             # allow to manually start the workflow 
+#  push:
+#    branches:
+#      - main # Default release branch
 jobs:
   publish:
     name: build, pack & publish
