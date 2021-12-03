@@ -9,6 +9,7 @@
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageTags>aoc;helper</PackageTags>
     <PackageLicenseExpression>GPL-3.0-only</PackageLicenseExpression>
+    <PackageId>$(AssemblyName).Net</PackageId>
   </PropertyGroup>
 
   <ItemGroup>
