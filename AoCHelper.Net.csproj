@@ -11,7 +11,7 @@
 		<GenerateDocumentationFile>False</GenerateDocumentationFile>
 		<ProduceReferenceAssembly>True</ProduceReferenceAssembly>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
-		<Version>1.0.5</Version>
+		<Version>1.0.6</Version>
 		<PublishRepositoryUrl>true</PublishRepositoryUrl>
 		<IncludeSymbols>true</IncludeSymbols>
 		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
