@@ -14,9 +14,12 @@ jobs:
       - name: Setup dotnet
         uses: actions/setup-dotnet@v1
         with:
-          dotnet-version: 6.0.100
+          dotnet-version: |
+            3.1.x
+            5.0.x
+            6.0.x
 
-      # Publish
+# Publish
       - name: publish on version change
         id: publish_nuget
         uses: rohith/publish-nuget@v2
@@ -49,4 +52,4 @@ jobs:
           # NUGET_SOURCE: https://api.nuget.org
 
           # Flag to toggle pushing symbols along with nuget package to the server, disabled by default
-          # INCLUDE_SYMBOLS: false
+          INCLUDE_SYMBOLS: true
