@@ -1,4 +1,8 @@
-﻿namespace AoCHelper
+﻿using System;
+using System.IO;
+using System.Threading.Tasks;
+
+namespace AoCHelper
 {
     public static class Extensions
     {

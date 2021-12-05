@@ -1,8 +1,13 @@
-﻿namespace AoCHelper
+﻿using System;
+using System.IO;
+using System.Net.Http;
+using System.Threading.Tasks;
+
+namespace AoCHelper
 {
     public class InputDownloader
     {
-        private readonly HttpClient _httpClient = new();
+        private readonly HttpClient _httpClient = new HttpClient();
         private readonly string _sessionToken;
 
         public InputDownloader(string sessionToken)
