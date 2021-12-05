@@ -11,10 +11,11 @@
 		<GenerateDocumentationFile>False</GenerateDocumentationFile>
 		<ProduceReferenceAssembly>True</ProduceReferenceAssembly>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<Version>1.0.3</Version>
 	</PropertyGroup>
 
 	<ItemGroup>
-		<None Include="README.md" Pack="true" PackagePath="\"/>
+		<None Include="README.md" Pack="true" PackagePath="\" />
 	</ItemGroup>
 
 </Project>
