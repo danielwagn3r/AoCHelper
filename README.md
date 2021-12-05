@@ -1,4 +1,4 @@
-﻿# AoC Helper
+﻿# AoCHelper.Net
 
 Helpers for [Advent of Code](https://adventofcode.com) in C#.
 
