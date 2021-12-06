@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 
 namespace AoCHelper
 {
-    public static class Extensions
+    internal static class Extensions
     {
         public static bool IsNullOrEmpty(this string input)
         {
@@ -22,7 +22,7 @@ namespace AoCHelper
             {
                 return await File.ReadAllTextAsync(fileInfo.FullName);
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 return String.Empty;
             }
